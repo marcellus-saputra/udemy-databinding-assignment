@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'udemy-databinding-assignment';
+  counter = 0;
+
+  onIncrementedNumber() {
+    this.counter++;
+  }
 }
